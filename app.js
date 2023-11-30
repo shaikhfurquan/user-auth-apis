@@ -20,7 +20,7 @@ connectDb()
 
 
 //Routes
-app.use('/api/user' , userRouter)
+app.use('/api/users' , userRouter)
 
 
 app.listen(PORT , () =>{
